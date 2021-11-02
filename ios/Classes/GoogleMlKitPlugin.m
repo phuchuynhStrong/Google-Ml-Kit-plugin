@@ -11,10 +11,8 @@
     // Add detectors
     NSMutableArray *handlers = [NSMutableArray new];
     [handlers addObject:[[BarcodeScanner alloc] init]];
-    [handlers addObject:[[CustomRemoteModelManager alloc] init]];
     [handlers addObject:[[DigitalInkRecogniser alloc] init]];
     [handlers addObject:[[FaceDetector alloc] init]];
-    [handlers addObject:[[ImageLabeler alloc] init]];
     [handlers addObject:[[PoseDetector alloc] init]];
     [handlers addObject:[[TextRecognizer alloc] init]];
     
